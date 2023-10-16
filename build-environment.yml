@@ -1,0 +1,12 @@
+name: build-env
+channels:
+  - conda-forge
+dependencies:
+  - python =3.10
+  - jupyter_server
+  - jupyterlab =4.0.6
+  - jupyterlab-myst =2.1.0
+  - pip:
+      - jupyterlite-core >=0.2.0a0,<0.3.0
+      - jupyterlite-xeus-python >=1.0.0a0,<2.0.0
+      - ./extern/jupyterlab_deck-0.4.0a0-py3-none-any.whl
