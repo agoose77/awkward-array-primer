@@ -1,4 +1,4 @@
-name: build-env
+name: awkward-array-primer
 channels:
   - conda-forge
 dependencies:
